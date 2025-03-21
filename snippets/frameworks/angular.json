@@ -1,24 +1,22 @@
-{
-    "snippets": [
-        {
-            "name": "Angular Component",
-            "text": "@Component({\n  selector: '',\n  template: ''\n})\nexport class Component {}",
-            "keyword": "ngcomp"
-        },
-        {
-            "name": "Angular Service",
-            "text": "@Injectable({\n  providedIn: 'root'\n})\nexport class Service {}",
-            "keyword": "ngsvc"
-        },
-        {
-            "name": "Angular Directive",
-            "text": "@Directive({\n  selector: ''\n})\nexport class Directive {}",
-            "keyword": "ngdir"
-        },
-        {
-            "name": "Angular Pipe",
-            "text": "@Pipe({\n  name: ''\n})\nexport class Pipe {}",
-            "keyword": "ngpipe"
-        }
-    ]
-}
+[
+  {
+    "name": "Angular Component",
+    "text": "@Component({\n  selector: '',\n  template: ''\n})\nexport class Component {}",
+    "keyword": "ngcomp"
+  },
+  {
+    "name": "Angular Service",
+    "text": "@Injectable({\n  providedIn: 'root'\n})\nexport class Service {}",
+    "keyword": "ngsvc"
+  },
+  {
+    "name": "Angular Directive",
+    "text": "@Directive({\n  selector: ''\n})\nexport class Directive {}",
+    "keyword": "ngdir"
+  },
+  {
+    "name": "Angular Pipe",
+    "text": "@Pipe({\n  name: ''\n})\nexport class Pipe {}",
+    "keyword": "ngpipe"
+  }
+]

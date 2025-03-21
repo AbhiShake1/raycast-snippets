@@ -1,34 +1,32 @@
-{
-    "snippets": [
-        {
-            "name": "Ending -tion",
-            "text": "tion",
-            "keyword": "tn"
-        },
-        {
-            "name": "Ending -able",
-            "text": "able",
-            "keyword": "abl"
-        },
-        {
-            "name": "Ending -ible",
-            "text": "ible",
-            "keyword": "ibl"
-        },
-        {
-            "name": "Ending -ing",
-            "text": "ing",
-            "keyword": "ng"
-        },
-        {
-            "name": "Ending -ment",
-            "text": "ment",
-            "keyword": "mnt"
-        },
-        {
-            "name": "Ending -ness",
-            "text": "ness",
-            "keyword": "nss"
-        }
-    ]
-}
+[
+  {
+    "name": "Ending -tion",
+    "text": "tion",
+    "keyword": "tn"
+  },
+  {
+    "name": "Ending -able",
+    "text": "able",
+    "keyword": "abl"
+  },
+  {
+    "name": "Ending -ible",
+    "text": "ible",
+    "keyword": "ibl"
+  },
+  {
+    "name": "Ending -ing",
+    "text": "ing",
+    "keyword": "ng"
+  },
+  {
+    "name": "Ending -ment",
+    "text": "ment",
+    "keyword": "mnt"
+  },
+  {
+    "name": "Ending -ness",
+    "text": "ness",
+    "keyword": "nss"
+  }
+]

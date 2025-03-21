@@ -1,29 +1,27 @@
-{
-    "snippets": [
-        {
-            "name": "Vue Component",
-            "text": "<template>\n  \n</template>\n\n<script setup>\n\n</script>",
-            "keyword": "vcomp"
-        },
-        {
-            "name": "Vue Ref",
-            "text": "const value = ref()",
-            "keyword": "vref"
-        },
-        {
-            "name": "Vue Reactive",
-            "text": "const state = reactive({})",
-            "keyword": "vreact"
-        },
-        {
-            "name": "Vue Computed",
-            "text": "const computed = computed(() => {})",
-            "keyword": "vcmpt"
-        },
-        {
-            "name": "Vue Watch",
-            "text": "watch(source, (newValue, oldValue) => {})",
-            "keyword": "vwtch"
-        }
-    ]
-}
+[
+  {
+    "name": "Vue Component",
+    "text": "<template>\n  \n</template>\n\n<script setup>\n\n</script>",
+    "keyword": "vcomp"
+  },
+  {
+    "name": "Vue Ref",
+    "text": "const value = ref()",
+    "keyword": "vref"
+  },
+  {
+    "name": "Vue Reactive",
+    "text": "const state = reactive({})",
+    "keyword": "vreact"
+  },
+  {
+    "name": "Vue Computed",
+    "text": "const computed = computed(() => {})",
+    "keyword": "vcmpt"
+  },
+  {
+    "name": "Vue Watch",
+    "text": "watch(source, (newValue, oldValue) => {})",
+    "keyword": "vwtch"
+  }
+]

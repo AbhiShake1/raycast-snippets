@@ -1,29 +1,27 @@
-{
-    "snippets": [
-        {
-            "name": "Initialize",
-            "text": "initialize",
-            "keyword": "intlz"
-        },
-        {
-            "name": "Implement",
-            "text": "implement",
-            "keyword": "implmnt"
-        },
-        {
-            "name": "Configure",
-            "text": "configure",
-            "keyword": "cnfgr"
-        },
-        {
-            "name": "Generate",
-            "text": "generate",
-            "keyword": "gnrt"
-        },
-        {
-            "name": "Validate",
-            "text": "validate",
-            "keyword": "vldtt"
-        }
-    ]
-}
+[
+  {
+    "name": "Initialize",
+    "text": "initialize",
+    "keyword": "intlz"
+  },
+  {
+    "name": "Implement",
+    "text": "implement",
+    "keyword": "implmnt"
+  },
+  {
+    "name": "Configure",
+    "text": "configure",
+    "keyword": "cnfgr"
+  },
+  {
+    "name": "Generate",
+    "text": "generate",
+    "keyword": "gnrt"
+  },
+  {
+    "name": "Validate",
+    "text": "validate",
+    "keyword": "vldtt"
+  }
+]

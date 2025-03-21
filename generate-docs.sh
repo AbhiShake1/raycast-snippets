@@ -10,7 +10,7 @@ process_json_docs() {
     echo "| Name | Keyword | Output |" >> README.md
     echo "|------|---------|---------|" >> README.md
     
-    jq -r '.snippets[] | "| \(.name) | `\(.keyword)` | `\(.text)` |"' "$file" >> README.md
+    jq -r '[] | "| \(.name) | `\(.keyword)` | `\(.text)` |"' "$file" >> README.md
     echo "" >> README.md
 }
 

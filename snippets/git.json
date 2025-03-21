@@ -1,19 +1,17 @@
-{
-    "snippets": [
-        {
-            "name": "Git Status",
-            "text": "git status",
-            "keyword": "gitstatus"
-        },
-        {
-            "name": "Git Commit Message",
-            "text": "git commit -m \"\"",
-            "keyword": "gitcommit"
-        },
-        {
-            "name": "Git Push Origin",
-            "text": "git push origin ",
-            "keyword": "gitpush"
-        }
-    ]
-}
+[
+  {
+    "name": "Git Status",
+    "text": "git status",
+    "keyword": "gitstatus"
+  },
+  {
+    "name": "Git Commit Message",
+    "text": "git commit -m \"\"",
+    "keyword": "gitcommit"
+  },
+  {
+    "name": "Git Push Origin",
+    "text": "git push origin ",
+    "keyword": "gitpush"
+  }
+]

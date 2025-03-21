@@ -1,29 +1,27 @@
-{
-    "snippets": [
-        {
-            "name": "In order to",
-            "text": "in order to",
-            "keyword": "iot"
-        },
-        {
-            "name": "As well as",
-            "text": "as well as",
-            "keyword": "awa"
-        },
-        {
-            "name": "Due to the",
-            "text": "due to the",
-            "keyword": "dtt"
-        },
-        {
-            "name": "On the other hand",
-            "text": "on the other hand",
-            "keyword": "otoh"
-        },
-        {
-            "name": "At the same time",
-            "text": "at the same time",
-            "keyword": "atst"
-        }
-    ]
-}
+[
+  {
+    "name": "In order to",
+    "text": "in order to",
+    "keyword": "iot"
+  },
+  {
+    "name": "As well as",
+    "text": "as well as",
+    "keyword": "awa"
+  },
+  {
+    "name": "Due to the",
+    "text": "due to the",
+    "keyword": "dtt"
+  },
+  {
+    "name": "On the other hand",
+    "text": "on the other hand",
+    "keyword": "otoh"
+  },
+  {
+    "name": "At the same time",
+    "text": "at the same time",
+    "keyword": "atst"
+  }
+]

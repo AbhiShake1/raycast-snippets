@@ -1,24 +1,22 @@
-{
-    "snippets": [
-        {
-            "name": "Express Route",
-            "text": "app.get('/', async (req, res) => {\n  \n});",
-            "keyword": "xget"
-        },
-        {
-            "name": "Express Post",
-            "text": "app.post('/', async (req, res) => {\n  \n});",
-            "keyword": "xpost"
-        },
-        {
-            "name": "Express Middleware",
-            "text": "const middleware = (req, res, next) => {\n  \n};",
-            "keyword": "xmid"
-        },
-        {
-            "name": "Express Router",
-            "text": "const router = express.Router();\n\nmodule.exports = router;",
-            "keyword": "xrtr"
-        }
-    ]
-}
+[
+  {
+    "name": "Express Route",
+    "text": "app.get('/', async (req, res) => {\n  \n});",
+    "keyword": "xget"
+  },
+  {
+    "name": "Express Post",
+    "text": "app.post('/', async (req, res) => {\n  \n});",
+    "keyword": "xpost"
+  },
+  {
+    "name": "Express Middleware",
+    "text": "const middleware = (req, res, next) => {\n  \n};",
+    "keyword": "xmid"
+  },
+  {
+    "name": "Express Router",
+    "text": "const router = express.Router();\n\nmodule.exports = router;",
+    "keyword": "xrtr"
+  }
+]

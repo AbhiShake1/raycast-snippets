@@ -1,19 +1,17 @@
-{
-    "snippets": [
-        {
-            "name": "React Component",
-            "text": "const Component = () => {\n  return (\n    <>\n    </>\n  );\n};",
-            "keyword": "reactcomponent"
-        },
-        {
-            "name": "Use State Hook",
-            "text": "const [state, setState] = useState();",
-            "keyword": "reactusestate"
-        },
-        {
-            "name": "Use Effect Hook",
-            "text": "useEffect(() => {\n  \n}, []);",
-            "keyword": "reacteffect"
-        }
-    ]
-}
+[
+  {
+    "name": "React Component",
+    "text": "const Component = () => {\n  return (\n    <>\n    </>\n  );\n};",
+    "keyword": "reactcomponent"
+  },
+  {
+    "name": "Use State Hook",
+    "text": "const [state, setState] = useState();",
+    "keyword": "reactusestate"
+  },
+  {
+    "name": "Use Effect Hook",
+    "text": "useEffect(() => {\n  \n}, []);",
+    "keyword": "reacteffect"
+  }
+]

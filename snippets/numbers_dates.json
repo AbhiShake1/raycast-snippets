@@ -1,24 +1,22 @@
-{
-    "snippets": [
-        {
-            "name": "Today's Date",
-            "text": "YYYY-MM-DD",
-            "keyword": "tday"
-        },
-        {
-            "name": "Current Time",
-            "text": "HH:mm:ss",
-            "keyword": "ctime"
-        },
-        {
-            "name": "Phone Number",
-            "text": "+1 (xxx) xxx-xxxx",
-            "keyword": "pnum"
-        },
-        {
-            "name": "ZIP Code",
-            "text": "xxxxx-xxxx",
-            "keyword": "zipc"
-        }
-    ]
-}
+[
+  {
+    "name": "Today's Date",
+    "text": "YYYY-MM-DD",
+    "keyword": "tday"
+  },
+  {
+    "name": "Current Time",
+    "text": "HH:mm:ss",
+    "keyword": "ctime"
+  },
+  {
+    "name": "Phone Number",
+    "text": "+1 (xxx) xxx-xxxx",
+    "keyword": "pnum"
+  },
+  {
+    "name": "ZIP Code",
+    "text": "xxxxx-xxxx",
+    "keyword": "zipc"
+  }
+]

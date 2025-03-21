@@ -1,54 +1,52 @@
-{
-    "snippets": [
-        {
-            "name": "Square Root",
-            "text": "√",
-            "keyword": "squareroot"
-        },
-        {
-            "name": "Integral",
-            "text": "∫",
-            "keyword": "integral"
-        },
-        {
-            "name": "Partial",
-            "text": "∂",
-            "keyword": "partial"
-        },
-        {
-            "name": "Delta",
-            "text": "Δ",
-            "keyword": "deltamath"
-        },
-        {
-            "name": "Pi",
-            "text": "π",
-            "keyword": "pimath"
-        },
-        {
-            "name": "Sum",
-            "text": "∑",
-            "keyword": "summation"
-        },
-        {
-            "name": "Product",
-            "text": "∏",
-            "keyword": "product"
-        },
-        {
-            "name": "Subset",
-            "text": "⊂",
-            "keyword": "subset"
-        },
-        {
-            "name": "Intersection",
-            "text": "∩",
-            "keyword": "intersect"
-        },
-        {
-            "name": "Union",
-            "text": "∪",
-            "keyword": "union"
-        }
-    ]
-}
+[
+  {
+    "name": "Square Root",
+    "text": "√",
+    "keyword": "squareroot"
+  },
+  {
+    "name": "Integral",
+    "text": "∫",
+    "keyword": "integral"
+  },
+  {
+    "name": "Partial",
+    "text": "∂",
+    "keyword": "partial"
+  },
+  {
+    "name": "Delta",
+    "text": "Δ",
+    "keyword": "deltamath"
+  },
+  {
+    "name": "Pi",
+    "text": "π",
+    "keyword": "pimath"
+  },
+  {
+    "name": "Sum",
+    "text": "∑",
+    "keyword": "summation"
+  },
+  {
+    "name": "Product",
+    "text": "∏",
+    "keyword": "product"
+  },
+  {
+    "name": "Subset",
+    "text": "⊂",
+    "keyword": "subset"
+  },
+  {
+    "name": "Intersection",
+    "text": "∩",
+    "keyword": "intersect"
+  },
+  {
+    "name": "Union",
+    "text": "∪",
+    "keyword": "union"
+  }
+]

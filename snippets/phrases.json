@@ -1,14 +1,12 @@
-{
-    "snippets": [
-        {
-            "name": "As far as I know",
-            "text": "as far as I know",
-            "keyword": "afaik"
-        },
-        {
-            "name": "In my opinion",
-            "text": "in my opinion",
-            "keyword": "imo"
-        }
-    ]
-}
+[
+  {
+    "name": "As far as I know",
+    "text": "as far as I know",
+    "keyword": "afaik"
+  },
+  {
+    "name": "In my opinion",
+    "text": "in my opinion",
+    "keyword": "imo"
+  }
+]

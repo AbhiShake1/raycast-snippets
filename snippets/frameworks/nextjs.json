@@ -1,24 +1,22 @@
-{
-    "snippets": [
-        {
-            "name": "Next Page",
-            "text": "export default function Page() {\n  return (\n    <>\n    </>\n  );\n}",
-            "keyword": "npage"
-        },
-        {
-            "name": "Get Server Side Props",
-            "text": "export async function getServerSideProps(context) {\n  return {\n    props: {}\n  };\n}",
-            "keyword": "ngssp"
-        },
-        {
-            "name": "Get Static Props",
-            "text": "export async function getStaticProps(context) {\n  return {\n    props: {}\n  };\n}",
-            "keyword": "ngsp"
-        },
-        {
-            "name": "API Route",
-            "text": "export default async function handler(req, res) {\n  \n}",
-            "keyword": "napi"
-        }
-    ]
-}
+[
+  {
+    "name": "Next Page",
+    "text": "export default function Page() {\n  return (\n    <>\n    </>\n  );\n}",
+    "keyword": "npage"
+  },
+  {
+    "name": "Get Server Side Props",
+    "text": "export async function getServerSideProps(context) {\n  return {\n    props: {}\n  };\n}",
+    "keyword": "ngssp"
+  },
+  {
+    "name": "Get Static Props",
+    "text": "export async function getStaticProps(context) {\n  return {\n    props: {}\n  };\n}",
+    "keyword": "ngsp"
+  },
+  {
+    "name": "API Route",
+    "text": "export default async function handler(req, res) {\n  \n}",
+    "keyword": "napi"
+  }
+]

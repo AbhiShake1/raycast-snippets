@@ -1,29 +1,27 @@
-{
-    "snippets": [
-        {
-            "name": "Change Directory",
-            "text": "cd ",
-            "keyword": "cdir"
-        },
-        {
-            "name": "List Files",
-            "text": "ls -la",
-            "keyword": "lsf"
-        },
-        {
-            "name": "Process Status Grep",
-            "text": "ps aux | grep ",
-            "keyword": "psgrep"
-        },
-        {
-            "name": "Remove Force",
-            "text": "rm -rf ",
-            "keyword": "rmforce"
-        },
-        {
-            "name": "Docker Compose Up",
-            "text": "docker-compose up -d",
-            "keyword": "dockup"
-        }
-    ]
-}
+[
+  {
+    "name": "Change Directory",
+    "text": "cd ",
+    "keyword": "cdir"
+  },
+  {
+    "name": "List Files",
+    "text": "ls -la",
+    "keyword": "lsf"
+  },
+  {
+    "name": "Process Status Grep",
+    "text": "ps aux | grep ",
+    "keyword": "psgrep"
+  },
+  {
+    "name": "Remove Force",
+    "text": "rm -rf ",
+    "keyword": "rmforce"
+  },
+  {
+    "name": "Docker Compose Up",
+    "text": "docker-compose up -d",
+    "keyword": "dockup"
+  }
+]
