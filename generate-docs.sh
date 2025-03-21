@@ -16,20 +16,23 @@ process_json_docs() {
 
 # Function to merge JSON files
 merge_json_files() {
-    echo "{\"snippets\":[" > index.json
+    # Create a temporary array for all snippets
+    snippets=()
     
-    # Process each file and append snippets
-    first=true
+    # Read all JSON files and collect their snippets
     while IFS= read -r file; do
-        if [ "$first" = true ]; then
-            first=false
-        else
-            echo "," >> index.json
-        fi
-        jq -r '.snippets[] | tostring' "$file" | tr '\n' ',' | sed 's/,$//' >> index.json
+        # Get snippets from each file and add to array
+        while IFS= read -r snippet; do
+            if [ -n "$snippet" ]; then
+                snippets+=("$snippet")
+            fi
+        done < <(jq -c '.snippets[]' "$file")
     done < <(find ./snippets -type f -name "*.json")
     
-    echo "]}" >> index.json
+    # Combine all snippets into index.json
+    printf "[" > index.json
+    printf "%s," "${snippets[@]}" | sed 's/,$//' >> index.json
+    printf "]" >> index.json
     
     # Format the final JSON file
     jq '.' index.json > temp.json && mv temp.json index.json
