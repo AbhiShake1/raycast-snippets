@@ -1,0 +1,29 @@
+{
+    "snippets": [
+        {
+            "name": "Necessary",
+            "text": "necessary",
+            "keyword": "nec"
+        },
+        {
+            "name": "Separate",
+            "text": "separate",
+            "keyword": "sep"
+        },
+        {
+            "name": "Definitely",
+            "text": "definitely",
+            "keyword": "def"
+        },
+        {
+            "name": "Receive",
+            "text": "receive",
+            "keyword": "rcv"
+        },
+        {
+            "name": "Occurrence",
+            "text": "occurrence",
+            "keyword": "occ"
+        }
+    ]
+}

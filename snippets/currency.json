@@ -1,0 +1,44 @@
+{
+    "snippets": [
+        {
+            "name": "US Dollar",
+            "text": "$",
+            "keyword": "usdollar"
+        },
+        {
+            "name": "Euro",
+            "text": "€",
+            "keyword": "eurosign"
+        },
+        {
+            "name": "British Pound",
+            "text": "£",
+            "keyword": "poundsterling"
+        },
+        {
+            "name": "Japanese Yen",
+            "text": "¥",
+            "keyword": "yenjapan"
+        },
+        {
+            "name": "Bitcoin",
+            "text": "₿",
+            "keyword": "bitcoinsymbol"
+        },
+        {
+            "name": "Indian Rupee",
+            "text": "₹",
+            "keyword": "rupeeindia"
+        },
+        {
+            "name": "Russian Ruble",
+            "text": "₽",
+            "keyword": "rublerussia"
+        },
+        {
+            "name": "Korean Won",
+            "text": "₩",
+            "keyword": "wonkorea"
+        }
+    ]
+}

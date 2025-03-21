@@ -1,0 +1,154 @@
+{
+    "snippets": [
+        {
+            "name": "Ellipsis",
+            "text": "...",
+            "keyword": "ellipsis"
+        },
+        {
+            "name": "Em Dash",
+            "text": "—",
+            "keyword": "emdash"
+        },
+        {
+            "name": "En Dash",
+            "text": "-",
+            "keyword": "endash"
+        },
+        {
+            "name": "Quotation Marks",
+            "text": "\"\"",
+            "keyword": "quote"
+        },
+        {
+            "name": "Single Quotes",
+            "text": "''",
+            "keyword": "squote"
+        },
+        {
+            "name": "Parentheses",
+            "text": "()",
+            "keyword": "paren"
+        },
+        {
+            "name": "Square Brackets",
+            "text": "[]",
+            "keyword": "bracket"
+        },
+        {
+            "name": "Curly Braces",
+            "text": "{}",
+            "keyword": "brace"
+        },
+        {
+            "name": "Angle Brackets",
+            "text": "<>",
+            "keyword": "angle"
+        },
+        {
+            "name": "Copyright",
+            "text": "©",
+            "keyword": "copyright"
+        },
+        {
+            "name": "Registered",
+            "text": "®",
+            "keyword": "registered"
+        },
+        {
+            "name": "Trademark",
+            "text": "™",
+            "keyword": "trademark"
+        },
+        {
+            "name": "Bullet Point",
+            "text": "•",
+            "keyword": "bullet"
+        },
+        {
+            "name": "Section",
+            "text": "§",
+            "keyword": "section"
+        },
+        {
+            "name": "Degree",
+            "text": "°",
+            "keyword": "degree"
+        },
+        {
+            "name": "Plus Minus",
+            "text": "±",
+            "keyword": "plusminus"
+        },
+        {
+            "name": "Multiplication",
+            "text": "×",
+            "keyword": "multiply"
+        },
+        {
+            "name": "Division",
+            "text": "÷",
+            "keyword": "divide"
+        },
+        {
+            "name": "Not Equal",
+            "text": "≠",
+            "keyword": "notequal"
+        },
+        {
+            "name": "Approximately",
+            "text": "≈",
+            "keyword": "aprx"
+        },
+        {
+            "name": "Less Equal",
+            "text": "≤",
+            "keyword": "leq"
+        },
+        {
+            "name": "Greater Equal",
+            "text": "≥",
+            "keyword": "geq"
+        },
+        {
+            "name": "Infinity",
+            "text": "∞",
+            "keyword": "inf"
+        },
+        {
+            "name": "Check Mark",
+            "text": "✓",
+            "keyword": "chk"
+        },
+        {
+            "name": "Cross Mark",
+            "text": "✗",
+            "keyword": "crx"
+        },
+        {
+            "name": "Arrow Right",
+            "text": "→",
+            "keyword": "arr"
+        },
+        {
+            "name": "Arrow Left",
+            "text": "←",
+            "keyword": "arl"
+        },
+        {
+            "name": "Arrow Up",
+            "text": "↑",
+            "keyword": "aru"
+        },
+        {
+            "name": "Arrow Down",
+            "text": "↓",
+            "keyword": "ard"
+        },
+        {
+            "name": "Double Arrow",
+            "text": "⇄",
+            "keyword": "darr"
+        }
+    ]
+}

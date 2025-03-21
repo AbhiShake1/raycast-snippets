@@ -1,0 +1,24 @@
+{
+    "snippets": [
+        {
+            "name": "Singleton Pattern",
+            "text": "singleton pattern",
+            "keyword": "sngltn"
+        },
+        {
+            "name": "Factory Method",
+            "text": "factory method",
+            "keyword": "fctry"
+        },
+        {
+            "name": "Observer Pattern",
+            "text": "observer pattern",
+            "keyword": "obsrvr"
+        },
+        {
+            "name": "Strategy Pattern",
+            "text": "strategy pattern",
+            "keyword": "strtgy"
+        }
+    ]
+}

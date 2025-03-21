@@ -1,0 +1,24 @@
+{
+    "snippets": [
+        {
+            "name": "Select From",
+            "text": "SELECT * FROM ",
+            "keyword": "slct"
+        },
+        {
+            "name": "Inner Join",
+            "text": "INNER JOIN ",
+            "keyword": "injn"
+        },
+        {
+            "name": "Where Clause",
+            "text": "WHERE ",
+            "keyword": "whr"
+        },
+        {
+            "name": "Group By",
+            "text": "GROUP BY ",
+            "keyword": "grpby"
+        }
+    ]
+}

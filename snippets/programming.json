@@ -1,0 +1,24 @@
+{
+    "snippets": [
+        {
+            "name": "Function",
+            "text": "function",
+            "keyword": "fnc"
+        },
+        {
+            "name": "Variable",
+            "text": "variable",
+            "keyword": "vrbl"
+        },
+        {
+            "name": "Constructor",
+            "text": "constructor",
+            "keyword": "cnstr"
+        },
+        {
+            "name": "Interface",
+            "text": "interface",
+            "keyword": "intrfc"
+        }
+    ]
+}

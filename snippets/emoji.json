@@ -1,0 +1,54 @@
+{
+    "snippets": [
+        {
+            "name": "Thumbs Up",
+            "text": "👍",
+            "keyword": "thumbsup"
+        },
+        {
+            "name": "Check Mark",
+            "text": "✅",
+            "keyword": "greencheck"
+        },
+        {
+            "name": "Warning",
+            "text": "⚠️",
+            "keyword": "warningsign"
+        },
+        {
+            "name": "Rocket",
+            "text": "🚀",
+            "keyword": "rocketship"
+        },
+        {
+            "name": "Bug",
+            "text": "🐛",
+            "keyword": "bugfix"
+        },
+        {
+            "name": "Fire",
+            "text": "🔥",
+            "keyword": "fireemoji"
+        },
+        {
+            "name": "Sparkles",
+            "text": "✨",
+            "keyword": "sparkleemoji"
+        },
+        {
+            "name": "Heart",
+            "text": "❤️",
+            "keyword": "redheart"
+        },
+        {
+            "name": "Lightning",
+            "text": "⚡",
+            "keyword": "zapbolt"
+        },
+        {
+            "name": "Gear",
+            "text": "⚙️",
+            "keyword": "settingsgear"
+        }
+    ]
+}

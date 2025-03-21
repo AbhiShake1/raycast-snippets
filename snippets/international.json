@@ -1,0 +1,19 @@
+{
+    "snippets": [
+        {
+            "name": "N with Tilde",
+            "text": "ñ",
+            "keyword": "spanishn"
+        },
+        {
+            "name": "E with Acute",
+            "text": "é",
+            "keyword": "acutee"
+        },
+        {
+            "name": "A with Umlaut",
+            "text": "ä",
+            "keyword": "umlautA"
+        }
+    ]
+}

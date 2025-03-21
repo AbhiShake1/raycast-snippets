@@ -1,0 +1,19 @@
+{
+    "snippets": [
+        {
+            "name": "Through",
+            "text": "through",
+            "keyword": "thrgh"
+        },
+        {
+            "name": "Because",
+            "text": "because",
+            "keyword": "becz"
+        },
+        {
+            "name": "Between",
+            "text": "between",
+            "keyword": "btwnn"
+        }
+    ]
+}

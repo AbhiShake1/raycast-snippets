@@ -1,0 +1,19 @@
+{
+    "snippets": [
+        {
+            "name": "Describe Block",
+            "text": "describe('', () => {\n  \n});",
+            "keyword": "testdescribe"
+        },
+        {
+            "name": "Test Case",
+            "text": "test('', () => {\n  \n});",
+            "keyword": "testcase"
+        },
+        {
+            "name": "Expect Statement",
+            "text": "expect().toBe();",
+            "keyword": "testexpect"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "snippets": [
+        {
+            "name": "Authentication",
+            "text": "authentication",
+            "keyword": "authntc"
+        },
+        {
+            "name": "Authorization",
+            "text": "authorization",
+            "keyword": "authrztn"
+        },
+        {
+            "name": "Infrastructure",
+            "text": "infrastructure",
+            "keyword": "infstr"
+        },
+        {
+            "name": "Architecture",
+            "text": "architecture",
+            "keyword": "rchtctr"
+        },
+        {
+            "name": "Experience",
+            "text": "experience",
+            "keyword": "xprnc"
+        },
+        {
+            "name": "Opportunity",
+            "text": "opportunity",
+            "keyword": "oprtn"
+        },
+        {
+            "name": "Necessary",
+            "text": "necessary",
+            "keyword": "ncsry"
+        },
+        {
+            "name": "Different",
+            "text": "different",
+            "keyword": "dfrnt"
+        },
+        {
+            "name": "Government",
+            "text": "government",
+            "keyword": "gvrmnt"
+        },
+        {
+            "name": "Important",
+            "text": "important",
+            "keyword": "imprt"
+        },
+        {
+            "name": "Knowledge",
+            "text": "knowledge",
+            "keyword": "knwldg"
+        },
+        {
+            "name": "Business",
+            "text": "business",
+            "keyword": "bsns"
+        },
+        {
+            "name": "Question",
+            "text": "question",
+            "keyword": "qstn"
+        },
+        {
+            "name": "Information",
+            "text": "information",
+            "keyword": "infrmtn"
+        },
+        {
+            "name": "Available",
+            "text": "available",
+            "keyword": "avlbl"
+        },
+        {
+            "name": "Community",
+            "text": "community",
+            "keyword": "cmnty"
+        },
+        {
+            "name": "Education",
+            "text": "education",
+            "keyword": "edctn"
+        },
+        {
+            "name": "Technology",
+            "text": "technology",
+            "keyword": "tchnlg"
+        },
+        {
+            "name": "Resources",
+            "text": "resources",
+            "keyword": "rsrcs"
+        },
+        {
+            "name": "Development",
+            "text": "development",
+            "keyword": "dvlpmnt"
+        }
+    ]
+}

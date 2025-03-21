@@ -1,0 +1,19 @@
+{
+    "snippets": [
+        {
+            "name": "Lambda Symbol",
+            "text": "λ",
+            "keyword": "lambdasym"
+        },
+        {
+            "name": "Function Symbol",
+            "text": "ƒ",
+            "keyword": "functionsym"
+        },
+        {
+            "name": "For All",
+            "text": "∀",
+            "keyword": "forallsym"
+        }
+    ]
+}

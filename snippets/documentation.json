@@ -1,0 +1,19 @@
+{
+    "snippets": [
+        {
+            "name": "Function Parameters",
+            "text": "@param {type} name - description",
+            "keyword": "docparam"
+        },
+        {
+            "name": "Returns Documentation",
+            "text": "@returns {type} description",
+            "keyword": "docreturn"
+        },
+        {
+            "name": "Example Usage",
+            "text": "@example\n * ```js\n * // code\n * ```",
+            "keyword": "docexample"
+        }
+    ]
+}
