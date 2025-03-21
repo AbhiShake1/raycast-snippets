@@ -1,0 +1,33 @@
+name: Generate Documentation
+
+on:
+  push:
+    paths:
+      - 'snippets/**/*.json'
+  workflow_dispatch:
+
+jobs:
+  test-and-generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Check for duplicate keywords
+        run: |
+          chmod +x ./test-snippets.sh
+          ./test-snippets.sh
+          
+      - name: Generate Documentation and Index
+        if: success()
+        run: |
+          chmod +x ./generate-docs.sh
+          ./generate-docs.sh
+          
+      - name: Commit Changes
+        if: success()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md index.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "docs: update snippets documentation and index"
+          git push
