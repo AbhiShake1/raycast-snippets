@@ -97,7 +97,7 @@
   {
     "name": "Approximately",
     "text": "≈",
-    "keyword": "aprx"
+    "keyword": "eqaprx"
   },
   {
     "name": "Less Equal",

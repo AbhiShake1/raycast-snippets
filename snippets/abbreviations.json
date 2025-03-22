@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Please",
+    "text": "please",
+    "keyword": "pls"
+  },
+  {
+    "name": "Thank You",
+    "text": "thank you",
+    "keyword": "ty"
+  },
+  {
+    "name": "In My Humble Opinion",
+    "text": "in my humble opinion",
+    "keyword": "imho"
+  },
+  {
+    "name": "To Be Honest",
+    "text": "to be honest",
+    "keyword": "tbh"
+  },
+  {
+    "name": "By The Way",
+    "text": "by the way",
+    "keyword": "btw"
+  },
+  {
+    "name": "As Soon As Possible",
+    "text": "as soon as possible",
+    "keyword": "asap"
+  },
+  {
+    "name": "Get The F Out",
+    "text": "get the f*** out",
+    "keyword": "gtfo"
+  },
+  {
+    "name": "Be Right Back",
+    "text": "be right back",
+    "keyword": "brb"
+  },
+  {
+    "name": "In Real Life",
+    "text": "in real life",
+    "keyword": "irl"
+  },
+  {
+    "name": "For Your Information",
+    "text": "for your information",
+    "keyword": "fyi"
+  },
+  {
+    "name": "What The F",
+    "text": "what the f***",
+    "keyword": "wtf"
+  },
+  {
+    "name": "Oh My God",
+    "text": "oh my god",
+    "keyword": "omg"
+  },
+  {
+    "name": "Rolling On Floor Laughing",
+    "text": "rolling on floor laughing",
+    "keyword": "rofl"
+  },
+  {
+    "name": "Laughing Out Loud",
+    "text": "laughing out loud",
+    "keyword": "lol"
+  },
+  {
+    "name": "Talk To You Later",
+    "text": "talk to you later",
+    "keyword": "ttyl"
+  },
+  {
+    "name": "No Problem",
+    "text": "no problem",
+    "keyword": "np"
+  },
+  {
+    "name": "On My Way",
+    "text": "on my way",
+    "keyword": "omw"
+  },
+  {
+    "name": "Too Long Didn't Read",
+    "text": "too long; didn't read",
+    "keyword": "tldr"
+  }
+]

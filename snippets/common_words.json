@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Therefore",
+    "text": "therefore",
+    "keyword": "thrf"
+  },
+  {
+    "name": "However",
+    "text": "however",
+    "keyword": "hwvr"
+  },
+  {
+    "name": "Furthermore",
+    "text": "furthermore",
+    "keyword": "frthr"
+  },
+  {
+    "name": "Particularly",
+    "text": "particularly",
+    "keyword": "prtc"
+  },
+  {
+    "name": "Specifically",
+    "text": "specifically",
+    "keyword": "spcf"
+  },
+  {
+    "name": "Additionally",
+    "text": "additionally",
+    "keyword": "addl"
+  },
+  {
+    "name": "Consequently",
+    "text": "consequently",
+    "keyword": "cnsq"
+  },
+  {
+    "name": "Nevertheless",
+    "text": "nevertheless",
+    "keyword": "nvth"
+  },
+  {
+    "name": "Approximately",
+    "text": "approximately",
+    "keyword": "aprx"
+  },
+  {
+    "name": "Essentially",
+    "text": "essentially",
+    "keyword": "esnt"
+  },
+  {
+    "name": "Generally",
+    "text": "generally",
+    "keyword": "gnrl"
+  },
+  {
+    "name": "Significantly",
+    "text": "significantly",
+    "keyword": "sgnf"
+  },
+  {
+    "name": "Successfully",
+    "text": "successfully",
+    "keyword": "succ"
+  },
+  {
+    "name": "Unfortunately",
+    "text": "unfortunately",
+    "keyword": "unft"
+  },
+  {
+    "name": "Immediately",
+    "text": "immediately",
+    "keyword": "immd"
+  }
+]

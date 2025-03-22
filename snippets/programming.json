@@ -18,5 +18,60 @@
     "name": "Interface",
     "text": "interface",
     "keyword": "intrfc"
+  },
+  {
+    "name": "Super",
+    "text": "super",
+    "keyword": "supr"
+  },
+  {
+    "name": "Private",
+    "text": "private",
+    "keyword": "priv"
+  },
+  {
+    "name": "Protected",
+    "text": "protected",
+    "keyword": "prot"
+  },
+  {
+    "name": "Public",
+    "text": "public",
+    "keyword": "pub"
+  },
+  {
+    "name": "Static",
+    "text": "static",
+    "keyword": "stat"
+  },
+  {
+    "name": "Return",
+    "text": "return",
+    "keyword": "ret"
+  },
+  {
+    "name": "Async",
+    "text": "async",
+    "keyword": "asyn"
+  },
+  {
+    "name": "Await",
+    "text": "await",
+    "keyword": "awt"
+  },
+  {
+    "name": "Export",
+    "text": "export",
+    "keyword": "exp"
+  },
+  {
+    "name": "Import",
+    "text": "import",
+    "keyword": "imp"
+  },
+  {
+    "name": "Default",
+    "text": "default",
+    "keyword": "dflt"
   }
 ]
