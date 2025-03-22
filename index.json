@@ -302,7 +302,7 @@
   {
     "name": "Approximately",
     "text": "≈",
-    "keyword": "aprx"
+    "keyword": "eqaprx"
   },
   {
     "name": "Less Equal",
@@ -625,6 +625,81 @@
     "keyword": "nss"
   },
   {
+    "name": "Therefore",
+    "text": "therefore",
+    "keyword": "thrf"
+  },
+  {
+    "name": "However",
+    "text": "however",
+    "keyword": "hwvr"
+  },
+  {
+    "name": "Furthermore",
+    "text": "furthermore",
+    "keyword": "frthr"
+  },
+  {
+    "name": "Particularly",
+    "text": "particularly",
+    "keyword": "prtc"
+  },
+  {
+    "name": "Specifically",
+    "text": "specifically",
+    "keyword": "spcf"
+  },
+  {
+    "name": "Additionally",
+    "text": "additionally",
+    "keyword": "addl"
+  },
+  {
+    "name": "Consequently",
+    "text": "consequently",
+    "keyword": "cnsq"
+  },
+  {
+    "name": "Nevertheless",
+    "text": "nevertheless",
+    "keyword": "nvth"
+  },
+  {
+    "name": "Approximately",
+    "text": "approximately",
+    "keyword": "aprx"
+  },
+  {
+    "name": "Essentially",
+    "text": "essentially",
+    "keyword": "esnt"
+  },
+  {
+    "name": "Generally",
+    "text": "generally",
+    "keyword": "gnrl"
+  },
+  {
+    "name": "Significantly",
+    "text": "significantly",
+    "keyword": "sgnf"
+  },
+  {
+    "name": "Successfully",
+    "text": "successfully",
+    "keyword": "succ"
+  },
+  {
+    "name": "Unfortunately",
+    "text": "unfortunately",
+    "keyword": "unft"
+  },
+  {
+    "name": "Immediately",
+    "text": "immediately",
+    "keyword": "immd"
+  },
+  {
     "name": "Today's Date",
     "text": "YYYY-MM-DD",
     "keyword": "tday"
@@ -643,6 +718,96 @@
     "name": "ZIP Code",
     "text": "xxxxx-xxxx",
     "keyword": "zipc"
+  },
+  {
+    "name": "Please",
+    "text": "please",
+    "keyword": "pls"
+  },
+  {
+    "name": "Thank You",
+    "text": "thank you",
+    "keyword": "ty"
+  },
+  {
+    "name": "In My Humble Opinion",
+    "text": "in my humble opinion",
+    "keyword": "imho"
+  },
+  {
+    "name": "To Be Honest",
+    "text": "to be honest",
+    "keyword": "tbh"
+  },
+  {
+    "name": "By The Way",
+    "text": "by the way",
+    "keyword": "btw"
+  },
+  {
+    "name": "As Soon As Possible",
+    "text": "as soon as possible",
+    "keyword": "asap"
+  },
+  {
+    "name": "Get The F Out",
+    "text": "get the f*** out",
+    "keyword": "gtfo"
+  },
+  {
+    "name": "Be Right Back",
+    "text": "be right back",
+    "keyword": "brb"
+  },
+  {
+    "name": "In Real Life",
+    "text": "in real life",
+    "keyword": "irl"
+  },
+  {
+    "name": "For Your Information",
+    "text": "for your information",
+    "keyword": "fyi"
+  },
+  {
+    "name": "What The F",
+    "text": "what the f***",
+    "keyword": "wtf"
+  },
+  {
+    "name": "Oh My God",
+    "text": "oh my god",
+    "keyword": "omg"
+  },
+  {
+    "name": "Rolling On Floor Laughing",
+    "text": "rolling on floor laughing",
+    "keyword": "rofl"
+  },
+  {
+    "name": "Laughing Out Loud",
+    "text": "laughing out loud",
+    "keyword": "lol"
+  },
+  {
+    "name": "Talk To You Later",
+    "text": "talk to you later",
+    "keyword": "ttyl"
+  },
+  {
+    "name": "No Problem",
+    "text": "no problem",
+    "keyword": "np"
+  },
+  {
+    "name": "On My Way",
+    "text": "on my way",
+    "keyword": "omw"
+  },
+  {
+    "name": "Too Long Didn't Read",
+    "text": "too long; didn't read",
+    "keyword": "tldr"
   },
   {
     "name": "In order to",
@@ -793,6 +958,61 @@
     "name": "Interface",
     "text": "interface",
     "keyword": "intrfc"
+  },
+  {
+    "name": "Super",
+    "text": "super",
+    "keyword": "supr"
+  },
+  {
+    "name": "Private",
+    "text": "private",
+    "keyword": "priv"
+  },
+  {
+    "name": "Protected",
+    "text": "protected",
+    "keyword": "prot"
+  },
+  {
+    "name": "Public",
+    "text": "public",
+    "keyword": "pub"
+  },
+  {
+    "name": "Static",
+    "text": "static",
+    "keyword": "stat"
+  },
+  {
+    "name": "Return",
+    "text": "return",
+    "keyword": "ret"
+  },
+  {
+    "name": "Async",
+    "text": "async",
+    "keyword": "asyn"
+  },
+  {
+    "name": "Await",
+    "text": "await",
+    "keyword": "awt"
+  },
+  {
+    "name": "Export",
+    "text": "export",
+    "keyword": "exp"
+  },
+  {
+    "name": "Import",
+    "text": "import",
+    "keyword": "imp"
+  },
+  {
+    "name": "Default",
+    "text": "default",
+    "keyword": "dflt"
   },
   {
     "name": "Through",

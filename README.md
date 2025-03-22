@@ -123,7 +123,7 @@ This repository contains various text expansion snippets for Raycast.
 | Multiplication | `multiply` | `×` |
 | Division | `divide` | `÷` |
 | Not Equal | `notequal` | `≠` |
-| Approximately | `aprx` | `≈` |
+| Approximately | `eqaprx` | `≈` |
 | Less Equal | `leq` | `≤` |
 | Greater Equal | `geq` | `≥` |
 | Infinity | `inf` | `∞` |
@@ -283,6 +283,26 @@ module.exports = router;` |
 | Ending -ment | `mnt` | `ment` |
 | Ending -ness | `nss` | `ness` |
 
+## common_words.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| Therefore | `thrf` | `therefore` |
+| However | `hwvr` | `however` |
+| Furthermore | `frthr` | `furthermore` |
+| Particularly | `prtc` | `particularly` |
+| Specifically | `spcf` | `specifically` |
+| Additionally | `addl` | `additionally` |
+| Consequently | `cnsq` | `consequently` |
+| Nevertheless | `nvth` | `nevertheless` |
+| Approximately | `aprx` | `approximately` |
+| Essentially | `esnt` | `essentially` |
+| Generally | `gnrl` | `generally` |
+| Significantly | `sgnf` | `significantly` |
+| Successfully | `succ` | `successfully` |
+| Unfortunately | `unft` | `unfortunately` |
+| Immediately | `immd` | `immediately` |
+
 ## numbers_dates.json
 
 | Name | Keyword | Output |
@@ -291,6 +311,29 @@ module.exports = router;` |
 | Current Time | `ctime` | `HH:mm:ss` |
 | Phone Number | `pnum` | `+1 (xxx) xxx-xxxx` |
 | ZIP Code | `zipc` | `xxxxx-xxxx` |
+
+## abbreviations.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| Please | `pls` | `please` |
+| Thank You | `ty` | `thank you` |
+| In My Humble Opinion | `imho` | `in my humble opinion` |
+| To Be Honest | `tbh` | `to be honest` |
+| By The Way | `btw` | `by the way` |
+| As Soon As Possible | `asap` | `as soon as possible` |
+| Get The F Out | `gtfo` | `get the f*** out` |
+| Be Right Back | `brb` | `be right back` |
+| In Real Life | `irl` | `in real life` |
+| For Your Information | `fyi` | `for your information` |
+| What The F | `wtf` | `what the f***` |
+| Oh My God | `omg` | `oh my god` |
+| Rolling On Floor Laughing | `rofl` | `rolling on floor laughing` |
+| Laughing Out Loud | `lol` | `laughing out loud` |
+| Talk To You Later | `ttyl` | `talk to you later` |
+| No Problem | `np` | `no problem` |
+| On My Way | `omw` | `on my way` |
+| Too Long Didn't Read | `tldr` | `too long; didn't read` |
 
 ## typing_phrases.json
 
@@ -349,6 +392,17 @@ module.exports = router;` |
 | Variable | `vrbl` | `variable` |
 | Constructor | `cnstr` | `constructor` |
 | Interface | `intrfc` | `interface` |
+| Super | `supr` | `super` |
+| Private | `priv` | `private` |
+| Protected | `prot` | `protected` |
+| Public | `pub` | `public` |
+| Static | `stat` | `static` |
+| Return | `ret` | `return` |
+| Async | `asyn` | `async` |
+| Await | `awt` | `await` |
+| Export | `exp` | `export` |
+| Import | `imp` | `import` |
+| Default | `dflt` | `default` |
 
 ## typing.json
 
