@@ -10,74 +10,6 @@ This repository contains various text expansion snippets for Raycast.
 
 ## Available Snippets
 
-## numbers_dates.json
-
-| Name | Keyword | Output |
-|------|---------|---------|
-| Today's Date | `tday` | `YYYY-MM-DD` |
-| Current Time | `ctime` | `HH:mm:ss` |
-| Phone Number | `pnum` | `+1 (xxx) xxx-xxxx` |
-| ZIP Code | `zipc` | `xxxxx-xxxx` |
-
-## emoji.json
-
-| Name | Keyword | Output |
-|------|---------|---------|
-| Thumbs Up | `thumbsup` | `👍` |
-| Check Mark | `greencheck` | `✅` |
-| Warning | `warningsign` | `⚠️` |
-| Rocket | `rocketship` | `🚀` |
-| Bug | `bugfix` | `🐛` |
-| Fire | `fireemoji` | `🔥` |
-| Sparkles | `sparkleemoji` | `✨` |
-| Heart | `redheart` | `❤️` |
-| Lightning | `zapbolt` | `⚡` |
-| Gear | `settingsgear` | `⚙️` |
-
-## testing.json
-
-| Name | Keyword | Output |
-|------|---------|---------|
-| Describe Block | `testdescribe` | `describe('', () => {
-  
-});` |
-| Test Case | `testcase` | `test('', () => {
-  
-});` |
-| Expect Statement | `testexpect` | `expect().toBe();` |
-
-## phrases.json
-
-| Name | Keyword | Output |
-|------|---------|---------|
-| As far as I know | `afaik` | `as far as I know` |
-| In my opinion | `imo` | `in my opinion` |
-
-## math.json
-
-| Name | Keyword | Output |
-|------|---------|---------|
-| Square Root | `squareroot` | `√` |
-| Integral | `integral` | `∫` |
-| Partial | `partial` | `∂` |
-| Delta | `deltamath` | `Δ` |
-| Pi | `pimath` | `π` |
-| Sum | `summation` | `∑` |
-| Product | `product` | `∏` |
-| Subset | `subset` | `⊂` |
-| Intersection | `intersect` | `∩` |
-| Union | `union` | `∪` |
-
-## mistyped.json
-
-| Name | Keyword | Output |
-|------|---------|---------|
-| Necessary | `nec` | `necessary` |
-| Separate | `sep` | `separate` |
-| Definitely | `def` | `definitely` |
-| Receive | `rcv` | `receive` |
-| Occurrence | `occ` | `occurrence` |
-
 ## international.json
 
 | Name | Keyword | Output |
@@ -86,75 +18,13 @@ This repository contains various text expansion snippets for Raycast.
 | E with Acute | `acutee` | `é` |
 | A with Umlaut | `umlautA` | `ä` |
 
-## currency.json
+## git.json
 
 | Name | Keyword | Output |
 |------|---------|---------|
-| US Dollar | `usdollar` | `$` |
-| Euro | `eurosign` | `€` |
-| British Pound | `poundsterling` | `£` |
-| Japanese Yen | `yenjapan` | `¥` |
-| Bitcoin | `bitcoinsymbol` | `₿` |
-| Indian Rupee | `rupeeindia` | `₹` |
-| Russian Ruble | `rublerussia` | `₽` |
-| Korean Won | `wonkorea` | `₩` |
-
-## nouns.json
-
-| Name | Keyword | Output |
-|------|---------|---------|
-| Application | `aplctn` | `application` |
-| Environment | `envrmnt` | `environment` |
-| Configuration | `cnfg` | `configuration` |
-| Management | `mngmnt` | `management` |
-
-## word_endings.json
-
-| Name | Keyword | Output |
-|------|---------|---------|
-| Ending -tion | `tn` | `tion` |
-| Ending -able | `abl` | `able` |
-| Ending -ible | `ibl` | `ible` |
-| Ending -ing | `ng` | `ing` |
-| Ending -ment | `mnt` | `ment` |
-| Ending -ness | `nss` | `ness` |
-
-## programming.json
-
-| Name | Keyword | Output |
-|------|---------|---------|
-| Function | `fnc` | `function` |
-| Variable | `vrbl` | `variable` |
-| Constructor | `cnstr` | `constructor` |
-| Interface | `intrfc` | `interface` |
-
-## code_symbols.json
-
-| Name | Keyword | Output |
-|------|---------|---------|
-| Lambda Symbol | `lambdasym` | `λ` |
-| Function Symbol | `functionsym` | `ƒ` |
-| For All | `forallsym` | `∀` |
-
-## shell.json
-
-| Name | Keyword | Output |
-|------|---------|---------|
-| Change Directory | `cdir` | `cd ` |
-| List Files | `lsf` | `ls -la` |
-| Process Status Grep | `psgrep` | `ps aux | grep ` |
-| Remove Force | `rmforce` | `rm -rf ` |
-| Docker Compose Up | `dockup` | `docker-compose up -d` |
-
-## typing_phrases.json
-
-| Name | Keyword | Output |
-|------|---------|---------|
-| In order to | `iot` | `in order to` |
-| As well as | `awa` | `as well as` |
-| Due to the | `dtt` | `due to the` |
-| On the other hand | `otoh` | `on the other hand` |
-| At the same time | `atst` | `at the same time` |
+| Git Status | `gitstatus` | `git status` |
+| Git Commit Message | `gitcommit` | `git commit -m ""` |
+| Git Push Origin | `gitpush` | `git push origin ` |
 
 ## database.json
 
@@ -184,124 +54,51 @@ This repository contains various text expansion snippets for Raycast.
 | Observer Pattern | `obsrvr` | `observer pattern` |
 | Strategy Pattern | `strtgy` | `strategy pattern` |
 
-## frameworks/nextjs.json
+## nouns.json
 
 | Name | Keyword | Output |
 |------|---------|---------|
-| Next Page | `npage` | `export default function Page() {
-  return (
-    <>
-    </>
-  );
-}` |
-| Get Server Side Props | `ngssp` | `export async function getServerSideProps(context) {
-  return {
-    props: {}
-  };
-}` |
-| Get Static Props | `ngsp` | `export async function getStaticProps(context) {
-  return {
-    props: {}
-  };
-}` |
-| API Route | `napi` | `export default async function handler(req, res) {
-  
-}` |
+| Application | `aplctn` | `application` |
+| Environment | `envrmnt` | `environment` |
+| Configuration | `cnfg` | `configuration` |
+| Management | `mngmnt` | `management` |
 
-## frameworks/express.json
+## testing.json
 
 | Name | Keyword | Output |
 |------|---------|---------|
-| Express Route | `xget` | `app.get('/', async (req, res) => {
+| Describe Block | `testdescribe` | `describe('', () => {
   
 });` |
-| Express Post | `xpost` | `app.post('/', async (req, res) => {
+| Test Case | `testcase` | `test('', () => {
   
 });` |
-| Express Middleware | `xmid` | `const middleware = (req, res, next) => {
-  
-};` |
-| Express Router | `xrtr` | `const router = express.Router();
+| Expect Statement | `testexpect` | `expect().toBe();` |
 
-module.exports = router;` |
-
-## frameworks/react.json
+## shell.json
 
 | Name | Keyword | Output |
 |------|---------|---------|
-| React Component | `reactcomponent` | `const Component = () => {
-  return (
-    <>
-    </>
-  );
-};` |
-| Use State Hook | `reactusestate` | `const [state, setState] = useState();` |
-| Use Effect Hook | `reacteffect` | `useEffect(() => {
-  
-}, []);` |
+| Change Directory | `cdir` | `cd ` |
+| List Files | `lsf` | `ls -la` |
+| Process Status Grep | `psgrep` | `ps aux | grep ` |
+| Remove Force | `rmforce` | `rm -rf ` |
+| Docker Compose Up | `dockup` | `docker-compose up -d` |
 
-## frameworks/angular.json
+## emoji.json
 
 | Name | Keyword | Output |
 |------|---------|---------|
-| Angular Component | `ngcomp` | `@Component({
-  selector: '',
-  template: ''
-})
-export class Component {}` |
-| Angular Service | `ngsvc` | `@Injectable({
-  providedIn: 'root'
-})
-export class Service {}` |
-| Angular Directive | `ngdir` | `@Directive({
-  selector: ''
-})
-export class Directive {}` |
-| Angular Pipe | `ngpipe` | `@Pipe({
-  name: ''
-})
-export class Pipe {}` |
-
-## frameworks/vue.json
-
-| Name | Keyword | Output |
-|------|---------|---------|
-| Vue Component | `vcomp` | `<template>
-  
-</template>
-
-<script setup>
-
-</script>` |
-| Vue Ref | `vref` | `const value = ref()` |
-| Vue Reactive | `vreact` | `const state = reactive({})` |
-| Vue Computed | `vcmpt` | `const computed = computed(() => {})` |
-| Vue Watch | `vwtch` | `watch(source, (newValue, oldValue) => {})` |
-
-## technical.json
-
-| Name | Keyword | Output |
-|------|---------|---------|
-| Authentication | `authntc` | `authentication` |
-| Authorization | `authrztn` | `authorization` |
-| Infrastructure | `infstr` | `infrastructure` |
-| Architecture | `rchtctr` | `architecture` |
-| Experience | `xprnc` | `experience` |
-| Opportunity | `oprtn` | `opportunity` |
-| Necessary | `ncsry` | `necessary` |
-| Different | `dfrnt` | `different` |
-| Government | `gvrmnt` | `government` |
-| Important | `imprt` | `important` |
-| Knowledge | `knwldg` | `knowledge` |
-| Business | `bsns` | `business` |
-| Question | `qstn` | `question` |
-| Information | `infrmtn` | `information` |
-| Available | `avlbl` | `available` |
-| Community | `cmnty` | `community` |
-| Education | `edctn` | `education` |
-| Technology | `tchnlg` | `technology` |
-| Resources | `rsrcs` | `resources` |
-| Development | `dvlpmnt` | `development` |
+| Thumbs Up | `thumbsup` | `👍` |
+| Check Mark | `greencheck` | `✅` |
+| Warning | `warningsign` | `⚠️` |
+| Rocket | `rocketship` | `🚀` |
+| Bug | `bugfix` | `🐛` |
+| Fire | `fireemoji` | `🔥` |
+| Sparkles | `sparkleemoji` | `✨` |
+| Heart | `redheart` | `❤️` |
+| Lightning | `zapbolt` | `⚡` |
+| Gear | `settingsgear` | `⚙️` |
 
 ## punctuation.json
 
@@ -332,19 +129,206 @@ export class Pipe {}` |
 | Infinity | `inf` | `∞` |
 | Check Mark | `chk` | `✓` |
 | Cross Mark | `crx` | `✗` |
-| Arrow Right | `arright` | `→` |
+| Arrow Right | `arr` | `→` |
 | Arrow Left | `arl` | `←` |
 | Arrow Up | `aru` | `↑` |
 | Arrow Down | `ard` | `↓` |
 | Double Arrow | `darr` | `⇄` |
 
-## git.json
+## code_symbols.json
 
 | Name | Keyword | Output |
 |------|---------|---------|
-| Git Status | `gitstatus` | `git status` |
-| Git Commit Message | `gitcommit` | `git commit -m ""` |
-| Git Push Origin | `gitpush` | `git push origin ` |
+| Lambda Symbol | `lambdasym` | `λ` |
+| Function Symbol | `functionsym` | `ƒ` |
+| For All | `forallsym` | `∀` |
+
+## mistyped.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| Necessary | `nec` | `necessary` |
+| Separate | `sep` | `separate` |
+| Definitely | `def` | `definitely` |
+| Receive | `rcv` | `receive` |
+| Occurrence | `occ` | `occurrence` |
+
+## frameworks/react.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| React Component | `reactcomponent` | `const Component = () => {
+  return (
+    <>
+    </>
+  );
+};` |
+| Use State Hook | `reactusestate` | `const [state, setState] = useState();` |
+| Use Effect Hook | `reacteffect` | `useEffect(() => {
+  
+}, []);` |
+
+## frameworks/vue.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| Vue Component | `vcomp` | `<template>
+  
+</template>
+
+<script setup>
+
+</script>` |
+| Vue Ref | `vref` | `const value = ref()` |
+| Vue Reactive | `vreact` | `const state = reactive({})` |
+| Vue Computed | `vcmpt` | `const computed = computed(() => {})` |
+| Vue Watch | `vwtch` | `watch(source, (newValue, oldValue) => {})` |
+
+## frameworks/nextjs.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| Next Page | `npage` | `export default function Page() {
+  return (
+    <>
+    </>
+  );
+}` |
+| Get Server Side Props | `ngssp` | `export async function getServerSideProps(context) {
+  return {
+    props: {}
+  };
+}` |
+| Get Static Props | `ngsp` | `export async function getStaticProps(context) {
+  return {
+    props: {}
+  };
+}` |
+| API Route | `napi` | `export default async function handler(req, res) {
+  
+}` |
+
+## frameworks/angular.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| Angular Component | `ngcomp` | `@Component({
+  selector: '',
+  template: ''
+})
+export class Component {}` |
+| Angular Service | `ngsvc` | `@Injectable({
+  providedIn: 'root'
+})
+export class Service {}` |
+| Angular Directive | `ngdir` | `@Directive({
+  selector: ''
+})
+export class Directive {}` |
+| Angular Pipe | `ngpipe` | `@Pipe({
+  name: ''
+})
+export class Pipe {}` |
+
+## frameworks/express.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| Express Route | `xget` | `app.get('/', async (req, res) => {
+  
+});` |
+| Express Post | `xpost` | `app.post('/', async (req, res) => {
+  
+});` |
+| Express Middleware | `xmid` | `const middleware = (req, res, next) => {
+  
+};` |
+| Express Router | `xrtr` | `const router = express.Router();
+
+module.exports = router;` |
+
+## technical.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| Authentication | `authntc` | `authentication` |
+| Authorization | `authrztn` | `authorization` |
+| Infrastructure | `infstr` | `infrastructure` |
+| Architecture | `rchtctr` | `architecture` |
+| Experience | `xprnc` | `experience` |
+| Opportunity | `oprtn` | `opportunity` |
+| Necessary | `ncsry` | `necessary` |
+| Different | `dfrnt` | `different` |
+| Government | `gvrmnt` | `government` |
+| Important | `imprt` | `important` |
+| Knowledge | `knwldg` | `knowledge` |
+| Business | `bsns` | `business` |
+| Question | `qstn` | `question` |
+| Information | `infrmtn` | `information` |
+| Available | `avlbl` | `available` |
+| Community | `cmnty` | `community` |
+| Education | `edctn` | `education` |
+| Technology | `tchnlg` | `technology` |
+| Resources | `rsrcs` | `resources` |
+| Development | `dvlpmnt` | `development` |
+
+## word_endings.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| Ending -tion | `tn` | `tion` |
+| Ending -able | `abl` | `able` |
+| Ending -ible | `ibl` | `ible` |
+| Ending -ing | `ng` | `ing` |
+| Ending -ment | `mnt` | `ment` |
+| Ending -ness | `nss` | `ness` |
+
+## numbers_dates.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| Today's Date | `tday` | `YYYY-MM-DD` |
+| Current Time | `ctime` | `HH:mm:ss` |
+| Phone Number | `pnum` | `+1 (xxx) xxx-xxxx` |
+| ZIP Code | `zipc` | `xxxxx-xxxx` |
+
+## typing_phrases.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| In order to | `iot` | `in order to` |
+| As well as | `awa` | `as well as` |
+| Due to the | `dtt` | `due to the` |
+| On the other hand | `otoh` | `on the other hand` |
+| At the same time | `atst` | `at the same time` |
+
+## math.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| Square Root | `squareroot` | `√` |
+| Integral | `integral` | `∫` |
+| Partial | `partial` | `∂` |
+| Delta | `deltamath` | `Δ` |
+| Pi | `pimath` | `π` |
+| Sum | `summation` | `∑` |
+| Product | `product` | `∏` |
+| Subset | `subset` | `⊂` |
+| Intersection | `intersect` | `∩` |
+| Union | `union` | `∪` |
+
+## currency.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| US Dollar | `usdollar` | `$` |
+| Euro | `eurosign` | `€` |
+| British Pound | `poundsterling` | `£` |
+| Japanese Yen | `yenjapan` | `¥` |
+| Bitcoin | `bitcoinsymbol` | `₿` |
+| Indian Rupee | `rupeeindia` | `₹` |
+| Russian Ruble | `rublerussia` | `₽` |
+| Korean Won | `wonkorea` | `₩` |
 
 ## documentation.json
 
@@ -357,6 +341,15 @@ export class Pipe {}` |
  * // code
  * ```` |
 
+## programming.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| Function | `fnc` | `function` |
+| Variable | `vrbl` | `variable` |
+| Constructor | `cnstr` | `constructor` |
+| Interface | `intrfc` | `interface` |
+
 ## typing.json
 
 | Name | Keyword | Output |
@@ -364,4 +357,11 @@ export class Pipe {}` |
 | Through | `thrgh` | `through` |
 | Because | `becz` | `because` |
 | Between | `btwnn` | `between` |
+
+## phrases.json
+
+| Name | Keyword | Output |
+|------|---------|---------|
+| As far as I know | `afaik` | `as far as I know` |
+| In my opinion | `imo` | `in my opinion` |
 
