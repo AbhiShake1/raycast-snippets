@@ -104,7 +104,6 @@ This repository contains various text expansion snippets for Raycast.
 | Name | Keyword | Output |
 |------|---------|---------|
 | Application | `aplctn` | `application` |
-| Development | `dvlpmnt` | `development` |
 | Environment | `envrmnt` | `environment` |
 | Configuration | `cnfg` | `configuration` |
 | Management | `mngmnt` | `management` |

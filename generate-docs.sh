@@ -10,7 +10,7 @@ process_json_docs() {
     echo "| Name | Keyword | Output |" >> README.md
     echo "|------|---------|---------|" >> README.md
     
-    jq -r '[] | "| \(.name) | `\(.keyword)` | `\(.text)` |"' "$file" >> README.md
+    jq -r '.[] | "| \(.name) | `\(.keyword)` | `\(.text)` |"' "$file" >> README.md
     echo "" >> README.md
 }
 
@@ -26,7 +26,7 @@ merge_json_files() {
             if [ -n "$snippet" ]; then
                 snippets+=("$snippet")
             fi
-        done < <(jq -c '.snippets[]' "$file")
+        done < <(jq -c '.[]' "$file")
     done < <(find ./snippets -type f -name "*.json")
     
     # Combine all snippets into index.json
