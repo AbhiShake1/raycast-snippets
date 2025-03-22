@@ -9,10 +9,12 @@ on:
 jobs:
   test-and-generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.PAT }}
+          ref: ${{ github.head_ref }}
           
       - name: Check for duplicate keywords
         run: |
@@ -25,11 +27,8 @@ jobs:
           chmod +x ./generate-docs.sh
           ./generate-docs.sh
           
-      - name: Commit Changes
+      - uses: stefanzweifel/git-auto-commit-action@v5
         if: success()
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "AbhiShake1"
-          git add README.md index.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "docs: update snippets documentation and index"
-          git push
+        with:
+          commit_message: "docs: update snippets documentation and index"
+          file_pattern: 'README.md index.json'
