@@ -48,7 +48,7 @@ This repository contains various text expansion snippets for Raycast.
 
 1. Import the snippets into your Raycast Text Snippets
 2. Use the keywords to trigger the expansions
-3. Alternatively, use the index.json file to import all snippets at once
+3. Alternatively, use the [index.json](index.json) file to import all snippets at once
 
 ## Available Snippets
 
