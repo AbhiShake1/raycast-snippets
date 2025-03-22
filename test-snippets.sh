@@ -9,7 +9,7 @@ check_duplicates() {
     
     # Extract all keywords from JSON files
     find ./snippets -type f -name "*.json" | while read -r file; do
-        jq -r '.snippets[].keyword' "$file" >> "$keywords_file"
+        jq -r '.[].keyword' "$file" >> "$keywords_file"
     done
     
     # Check for duplicates
