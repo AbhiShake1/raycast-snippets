@@ -21,7 +21,7 @@
   },
   {
     "name": "Git Commit Message",
-    "text": "git commit -m \"\"",
+    "text": "git add . && git commit -am \"\"",
     "keyword": "gitcommit"
   },
   {
