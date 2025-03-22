@@ -129,7 +129,7 @@ This repository contains various text expansion snippets for Raycast.
 | Infinity | `inf` | `∞` |
 | Check Mark | `chk` | `✓` |
 | Cross Mark | `crx` | `✗` |
-| Arrow Right | `arr` | `→` |
+| Arrow Right | `arright` | `→` |
 | Arrow Left | `arl` | `←` |
 | Arrow Up | `aru` | `↑` |
 | Arrow Down | `ard` | `↓` |
