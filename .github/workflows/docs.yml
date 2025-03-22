@@ -11,7 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+        with:
+          token: ${{ secrets.PAT }}
+          
       - name: Check for duplicate keywords
         run: |
           chmod +x ./test-snippets.sh
@@ -26,8 +28,8 @@ jobs:
       - name: Commit Changes
         if: success()
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "AbhiShake1"
           git add README.md index.json
           git diff --quiet && git diff --staged --quiet || git commit -m "docs: update snippets documentation and index"
           git push
